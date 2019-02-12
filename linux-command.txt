@@ -9,3 +9,23 @@ LINUX COMMANDS
 	read VAR			
 	read -p "Aanya Singh Bana" VAR	
 	read -s -p "Aanya Singh Bana" VAR	# Hides input
+
+2.Variables 
+
+2.1.Declaration and accessing value
+	
+	VAR=value
+	VAR=	# null value
+	echo $VAR
+
+2.2.Arithmetic operations
+
+	$((A + B))	# + - / * % ++ --
+
+2.3.String operations
+
+	${VAR:offset:length}	# Slice 
+	${VAR#pattern}	# Removes prefix
+	
+
+
