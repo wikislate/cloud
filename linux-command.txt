@@ -1,0 +1,11 @@
+LINUX COMMANDS
+
+1.Input-Output
+	
+	echo "Aanya Singh Bana"
+	echo -n "Aanya Singh Bana"	# Removes \n
+	echo -e "Aanya\nSingh\nBana"	# Enables \n \t interpretation
+
+	read VAR			
+	read -p "Aanya Singh Bana" VAR	
+	read -s -p "Aanya Singh Bana" VAR	# Hides input
