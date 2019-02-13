@@ -27,5 +27,16 @@ LINUX COMMANDS
 	${VAR:offset:length}	# Slice 
 	${VAR#pattern}	# Removes prefix
 	
+3.Array
+
+3.1.Declaring and accessing value
+
+	ARR=(elements of array)	# Declaring array.
+	${ARR[@]}		# Prints value of array variable.
+	${#ARR[@]}		# Prints no. of elements of array.
+	${ARR[@]:offset:length}	# Slice.
+
+
+	
 
 
